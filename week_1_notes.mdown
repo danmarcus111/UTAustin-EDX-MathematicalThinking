@@ -1,0 +1,36 @@
+# Week 1: Notes
+
+## Make Mistakes
+
+One of the most productive strategies to get new ideas and move learning forward is to be willing to make mistakes and learn from it.
+
+Once you understand this principle that learning and progress can derive from mistakes, you should be able to approach mistakes differently.  Don't ignore them - instead embrace them and analyse them.  What is there to learn from that mistake?  What direction does that push you in?
+
+### An Example: The Meanie Genie
+
+So we know that we cannot weigh all 9 stones at the same time, the scales will always come out uneven and we would not derive any information.
+
+So lets start by thinking what would happen if we take one away and balance 4 v 4.  If the scale is even, we know the stone.  If the scale is uneven, we know that the stone is 1 of 4 remaining stones.  We onyl get to weight one more time, but the best we can do here is narrow the 4 down further (though, with some stategies, we could get lucky at this point).  
+
+So what was the problem with our initial strategy?  We are left with too many stones if the scales are uneven.  So, what should we do?  Remove more strones.  Next we'll weigh 3 v 3, since it doesn't make sense weighing 4 v 3 for the reason first stated above.
+
+## Potential Optimisations
+
+If there are a limited number of possible solutions to the problem at hand, it may be an optimal strategy to list all of the possibilities.  In the genie example, you would find there aren't many:
+
+* uneven number weighed against each other
+* 4 v 4
+* 3 v 3
+* 2 v 2
+* 1 v 1
+
+You can then rule out some of the worst solutions.  For example, uneven number can be ruled out since you don't get any useful information from it.
+
+You could also instinctively knock out 1 v 1.  If you ask yourself why, you may get a useful insight.  There will be 7 left over in the worst-case scenario.  This is clearly two many - we need to weight more stones to be able to rule out more stones.
+
+So we might then go to 4 v 4 and get the insight that this can also leave us with too many stones.
+
+3 v 3 becomes the next natural test at this point.
+
+Notice that if you know the possible solutions, each failure is a success.  You have ruled out one of the limited number of possible solutions.
+
